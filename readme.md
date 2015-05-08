@@ -1,7 +1,7 @@
 #node-connection-paths
 
 ## Description
-Determine if two things are connected (e.g. network nodes) and generate a list of possible paths. For example, if A connects to B and C, B connects to C and D, and C connects to D and A, then A can connect to D via an infinite number of paths.
+Determine if two things are connected (e.g. network nodes) and generate a list of possible paths. For example, if A connects to B and C, B connects to C and D, and C connects to D and A, then A can connect to D via an infinite number of paths, assuming a thing is allowed to reconnect to previous things in the path.
 
 ## API
 #### Connections(```opt```)
