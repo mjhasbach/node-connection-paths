@@ -48,6 +48,7 @@ Generate possible paths between a source and destination
   * string `source` - A source
   * string `destination` - A destination
   * boolean `reverse` - Whether or not a node is allowed to connect to the previous node. Defaults to `false`.
+  * boolean `revisit` - Whether or not a node is allowed to connect to any previous nodes. Defaults to `false`.
   * string `format` - (Optional) If "string", `paths` will be an array of strings. If "array", `paths` will be an array of arrays of strings. Defaults to "array".
   * number `max` - (Optional) The maximum number of paths to generate. Defaults to 100.
   * object `depth`
@@ -63,6 +64,7 @@ connections.getPaths(
         source: 'A',
         destination: 'D',
         reverse: true,
+        revisit: true,
         format: 'string',
         max: 2,
         depth: {
