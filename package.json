@@ -1,0 +1,37 @@
+{
+  "name": "node-connection-paths",
+  "version": "1.0.0",
+  "description": "Determine if two things are connected (e.g. network nodes) and generate a list of possible paths",
+  "license": "MIT",
+  "homepage": "https://github.com/mjhasbach/node-connection-paths",
+  "dependencies": {
+    "async": "~0.9.0",
+    "csv": "~0.4.2",
+    "lodash": "~3.8.0",
+    "request": "~2.55.0",
+    "validator": "~3.39.0"
+  },
+  "keywords": [
+    "node",
+    "source",
+    "destination",
+    "connection",
+    "path",
+    "route",
+    "infinite",
+    "recursion"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjhasbach/node-connection-paths.git"
+  },
+  "author": {
+    "name": "Matthew Hasbach",
+    "email": "hasbach.git@gmail.com",
+    "url": "https://github.com/mjhasbach"
+  },
+  "main": "lib/connections.js",
+  "directories": {
+    "lib": "lib"
+  }
+}
