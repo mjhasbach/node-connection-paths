@@ -80,7 +80,7 @@ connections.getPaths(
 
 #### connections.areConnected(```opt```, ```cb```)
 
-Determine if a source and destination are connected
+Determine if a source and destination are connected. Note that it is much faster to use a [directed graph](http://en.wikipedia.org/wiki/Directed_graph). There are several directed graph libraries available on NPM, including [graph.js](https://www.npmjs.com/package/graph.js) and [directed-graph](https://www.npmjs.com/package/directed-graph).
 
 * object `opt` - An options object
   * string `source` - A source
