@@ -1,6 +1,6 @@
 {
   "name": "node-connection-paths",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Determine if two things are connected (e.g. network nodes) and generate a list of possible paths",
   "license": "MIT",
   "homepage": "https://github.com/mjhasbach/node-connection-paths",
