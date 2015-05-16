@@ -1,5 +1,5 @@
 {
-  "name": "node-connection-paths",
+  "name": "connection-paths",
   "version": "1.0.4",
   "description": "Determine if two things are connected (e.g. network nodes) and generate a list of possible paths",
   "license": "MIT",

@@ -141,5 +141,5 @@ connections.events.on('ready', function(err) {
 ## Installation
 #### Npm
 ```
-npm install node-connection-paths --save
+npm install connection-paths --save
 ```
